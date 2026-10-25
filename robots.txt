@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cinch2108.github.io/mintkit/sitemap.xml

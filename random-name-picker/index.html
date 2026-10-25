@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; manifest-src 'self'; frame-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Random Name Picker Wheel: Spin to Choose a Winner | Mintkit</title>
+<meta name="description" content="Paste a list of names and spin the wheel to pick a winner fairly. Remove winners and spin again.">
+<link rel="canonical" href="https://cinch2108.github.io/mintkit/random-name-picker/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cinch2108.github.io/mintkit/random-name-picker/">
+<meta property="og:site_name" content="Mintkit">
+<meta property="og:image" content="https://cinch2108.github.io/mintkit/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#06110f">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Random Name Picker Wheel: Spin to Choose a Winner | Mintkit">
+<meta name="twitter:description" content="Paste a list of names and spin the wheel to pick a winner fairly. Remove winners and spin again.">
+<meta name="twitter:image" content="https://cinch2108.github.io/mintkit/og.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Random Name Picker Wheel · Mintkit","url":"https://cinch2108.github.io/mintkit/random-name-picker/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","description":"Paste a list of names and spin the wheel to pick a winner fairly. Remove winners and spin again.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is the wheel fair?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every name has exactly the same chance, using unbiased cryptographic randomness."}},{"@type":"Question","name":"How many names can I add?","acceptedAnswer":{"@type":"Answer","text":"Up to 500. The labels shrink to fit as the wheel fills up."}},{"@type":"Question","name":"Are my names saved?","acceptedAnswer":{"@type":"Answer","text":"Only in your browser's local storage, so they're there next time. They're never uploaded."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"How to use the Random Name Picker Wheel","step":[{"@type":"HowToStep","position":1,"text":"Paste or type names, one per line or separated by commas."},{"@type":"HowToStep","position":2,"text":"Click Spin."},{"@type":"HowToStep","position":3,"text":"Turn on 'Remove the winner' to draw several people without repeats."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Generators","item":"https://cinch2108.github.io/mintkit/"},{"@type":"ListItem","position":2,"name":"Random","item":"https://cinch2108.github.io/mintkit/#Random"},{"@type":"ListItem","position":3,"name":"Random Name Picker Wheel","item":"https://cinch2108.github.io/mintkit/random-name-picker/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Mintkit","url":"https://cinch2108.github.io/mintkit/"}</script>
+<meta property="og:title" content="Random Name Picker Wheel: Spin to Choose a Winner | Mintkit">
+<meta property="og:description" content="Paste a list of names and spin the wheel to pick a winner fairly. Remove winners and spin again.">
+<link rel="icon" href="/mintkit/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/mintkit/styles.css">
+</head>
+<body data-base="/mintkit" data-tool="random-name-picker">
+<header class="top">
+  <a class="logo" href="/mintkit/"><i></i>Mintkit</a>
+  <div class="tr"><span class="safe" title="No trackers, no uploads, no accounts">🔒 Private · runs on your device</span><button id="theme" class="icon" type="button" aria-label="Toggle theme">☀️</button></div>
+</header>
+<div class="ad ad-leader" data-slot="top-leaderboard"><span>Advertisement</span></div>
+
+<main id="home" hidden><input id="search" type="hidden"><div id="cats"></div><span id="count"></span><div id="grid"></div></main>
+
+<main id="tool" hidden>
+  <div class="calc-wrap">
+    <div class="calc-main">
+      <a class="back" href="/mintkit/">← All generators</a>
+      <div class="chead"><span id="t-icon" class="cicon"></span><div><small id="t-cat"></small><h2 id="t-name"></h2><p id="t-desc"></p></div></div>
+      <div class="panes">
+        <div id="t-form" class="card form"></div>
+        <section id="t-out" class="card out" aria-live="polite"></section>
+      </div>
+      <div class="ad ad-wide" data-slot="below-result"><span>Advertisement</span></div>
+    </div>
+    <aside class="calc-side"><div class="ad ad-sky" data-slot="sidebar"><span>Advertisement</span></div></aside>
+  </div>
+</main>
+
+<article class="seo">
+<nav class="crumbs"><a href="/mintkit/">Generators</a> › Random › Random Name Picker Wheel</nav>
+<h1>Random Name Picker Wheel: Spin to Choose a Winner</h1>
+<h2>How it works</h2><p>Add names and spin the wheel. The winner is chosen fairly with the Web Crypto API before the wheel starts, and the animation lands exactly on that name, so long names and fast spins never affect the odds. You can remove each winner to draw again.</p>
+<h2>How to use it</h2><ol><li>Paste or type names, one per line or separated by commas.</li><li>Click Spin.</li><li>Turn on 'Remove the winner' to draw several people without repeats.</li></ol>
+<h2>Frequently asked questions</h2><details><summary>Is the wheel fair?</summary><p>Yes. Every name has exactly the same chance, using unbiased cryptographic randomness.</p></details><details><summary>How many names can I add?</summary><p>Up to 500. The labels shrink to fit as the wheel fills up.</p></details><details><summary>Are my names saved?</summary><p>Only in your browser's local storage, so they're there next time. They're never uploaded.</p></details>
+<h2>Related tools</h2><div class="rel"><a href="/mintkit/random-number-generator/">🎲 Random Number Generator</a><a href="/mintkit/team-generator/">👥 Random Team Generator</a><a href="/mintkit/dice-roller/">🎯 Dice Roller</a><a href="/mintkit/coin-flip/">🪙 Coin Flip</a><a href="/mintkit/qr-code-generator/">🔳 QR Code Generator</a><a href="/mintkit/wifi-qr-code/">📶 Wi-Fi QR Code</a><a href="/mintkit/vcard-qr-code/">👤 vCard QR Code</a><a href="/mintkit/qr-code-with-logo/">🎨 QR Code with Logo</a></div>
+</article><nav class="allnav" aria-label="All generators"><a href="/mintkit/qr-code-generator/">QR Code Generator</a><a href="/mintkit/wifi-qr-code/">Wi-Fi QR Code</a><a href="/mintkit/vcard-qr-code/">vCard QR Code</a><a href="/mintkit/qr-code-with-logo/">QR Code with Logo</a><a href="/mintkit/email-qr-code/">Email QR Code</a><a href="/mintkit/sms-qr-code/">SMS QR Code</a><a href="/mintkit/barcode-generator/">Barcode Generator</a><a href="/mintkit/ean-13-barcode/">EAN-13 Barcode Generator</a><a href="/mintkit/upc-barcode-generator/">UPC-A Barcode Generator</a><a href="/mintkit/code-39-barcode/">Code 39 Barcode Generator</a><a href="/mintkit/itf-14-barcode/">ITF-14 Barcode Generator</a><a href="/mintkit/password-generator/">Password Generator</a><a href="/mintkit/passphrase-generator/">Passphrase Generator</a><a href="/mintkit/pin-generator/">Random PIN Generator</a><a href="/mintkit/random-number-generator/">Random Number Generator</a><a href="/mintkit/random-name-picker/">Random Name Picker Wheel</a><a href="/mintkit/team-generator/">Random Team Generator</a><a href="/mintkit/dice-roller/">Dice Roller</a><a href="/mintkit/coin-flip/">Coin Flip</a><a href="/mintkit/uuid-generator/">UUID Generator</a><a href="/mintkit/hash-generator/">Hash Generator</a><a href="/mintkit/md5-hash-generator/">MD5 Hash Generator</a><a href="/mintkit/sha256-hash-generator/">SHA-256 Hash Generator</a><a href="/mintkit/sha512-hash-generator/">SHA-512 Hash Generator</a><a href="/mintkit/hmac-generator/">HMAC Generator</a><a href="/mintkit/file-checksum-calculator/">File Checksum Calculator</a></nav>
+<footer><span>© <span id="year"></span> Mintkit. Free generators that run in your browser.</span><span><a href="/mintkit/about/">About</a> · <a href="/mintkit/privacy/">Privacy</a> · <a href="/mintkit/terms/">Terms</a></span></footer>
+<div id="toast" role="status"></div>
+<script src="/mintkit/vendor/qrcode.js" defer></script>
+<script src="/mintkit/words.js" defer></script>
+<script src="/mintkit/pages.js" defer></script>
+<script src="/mintkit/app.js" defer></script>
+</body>
+</html>

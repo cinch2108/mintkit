@@ -1,0 +1,2 @@
+# Replace with your ad network's line(s), for example Google AdSense:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
